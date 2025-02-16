@@ -35,3 +35,8 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
+
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
