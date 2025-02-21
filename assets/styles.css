@@ -45,3 +45,8 @@ a:link {
   border-style: groove;
   background-color: #d9e1f2;
 }
+
+.nsa_text {
+  color:#094584;
+  font-size:115%;
+}
