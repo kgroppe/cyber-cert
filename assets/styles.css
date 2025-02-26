@@ -50,3 +50,8 @@ a:link {
   color:#094584;
   font-size:115%;
 }
+
+.responsive{
+  width: auto;
+  height: 100%;
+}

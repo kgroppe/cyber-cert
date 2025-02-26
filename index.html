@@ -12,10 +12,11 @@
     </head>
     <body>
         <div class="container-fluid">
-            <div class="row" style="background-color:#941424">
-                <div class="center">
+            <div class="row" style="background-color:#940731">
+                <div class="left">
                     <!--This is where the Lewis University top-bar menus will be placed. This bar is a placeholder for that area.-->
-                    <p>This is the lewis university logo and information</p>
+                    <a href="https://www.lewisu.edu"><img src="assets/output-onlinepngtools.png" width="150" height="100"></a>
+
                 </div>
             </div>
         </div>
@@ -23,12 +24,12 @@
             <div class="row" style="background-color:black">
                 <div class="col">
                     <div class="center">
-                        <!--This image is a placeholder for whatever image is decided. This is to see what it will look like-->
+                        <!--This image is a placeholder for whatever logo is decided for this certification. This is to see what it will look like-->
                         <img src="assets/student_logo_placeholder.jpg" alt="placeholder image" width="800" height="150" class="responsive">
                     </div>
                 </div>
             </div>
-            <p></p>
+            <p></p> <!--This is here to enusre there is a pagebreak between the headers of the website and the main body of the website. please do not remove due to formatting.-->
             <div class="row">
                 <div class="col-9">
                     <div class="center">
@@ -57,12 +58,12 @@
                                    <b>University of Detroit Mercy is designated by the National Security Agency and the U.S. Department of Homeland Seurity as a Center of Academic Excellence in Cyber Defense (CAE-CD).</b>
                                 </p>
                             </div>
-                            <img src="assets/NSA_Logo_Placeholder.png" width="800" height="200">
+                            <img src="assets/NSA_Logo_Placeholder.png" width="800" height="200" class="responsive">
                         </div>
                     </div>
                 </div>
                 <!--This section of the code is to create a personel contact area. This includes photos and emails of select professors.-->
-                <div class="col-3"  style="background-color:#941424">
+                <div class="col-3"  style="background-color:#940731;">
                     <div class="center">
                         <div class="row">
                             <p></p>
@@ -87,6 +88,7 @@
                             </div>
                         </div>
                         <!--This area is to list additional faculty to be included on the webpage. Some examples will be added and can be edited at any time.-->
+                        <!--This area has been blocked out as it does not fit in the format of example webpage. I will undo this if necessary, but should show to plass before doing this. -->
                         <div class="row">
                             <h5><b>Additional Faculty</b></h5>
                             <p><b>Dr. Cynthia Howard</b> - <a href="mailto:howardcy@lewisu.edu">howardcy@lewisu.edu</a></p>
@@ -211,12 +213,37 @@
                 <div id="accordion">
                     <div class="card">
                         <div class="card-header">
-                            <a class="btn" data-bs-toggle="collapse" href="#collapseOne" >
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseOne">
                                Affiliated Faculty 
                             </a>
                         </div>
+                        <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                <p><b>Dr. Cynthia Howard</b> - <a href="mailto:howardcy@lewisu.edu">howardcy@lewisu.edu</a></p>
+                                <p><b>Dr. Ray Klump</b> - <a href="mailto:klumpra@lewisu.edu">klumpra@lewisu.edu</a></p>
+                                <p><b>Eric Pogue</b> - <a href="mailto:epogue@lewisu.edu">epogue@lewisu.edu</a></p>
+                                <p><b>Eric Spangler</b> - <a href="mailto:spangler@lewisu.edu">spangler@lewisu.edu</a></p>
+                                <p><b>Jayme Speva</b> - <a href="mailto:spevaja@lewisu.edu">spevaja@lewisu.edu</a></p>
+                            </div>
+                        </div>
                     </div>
-
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo" >
+                               Cybersecurity Center Advisory Board
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                This is where the advisory board will be listed when it has been chosen. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="center">
+                <img src="assets/COAST_B&W.png" width="800" height="200" class="responsive">
                 </div>
             </div>
         </div>
