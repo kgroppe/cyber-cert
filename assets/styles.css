@@ -43,11 +43,13 @@ a:link {
 
 .nsa_logo {
   border-style: groove;
-  background-color: #d9e1f2;
+  background-color:white;
+  /*background-color: #d9e1f2;*/
 }
 
 .nsa_text {
-  color:#094584;
+  /*color:#094584;*/
+  color:#940731;
   font-size:115%;
 }
 
