@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 .center {
     text-align: center;
     display: block;
@@ -51,6 +52,7 @@ a:link {
   /*color:#094584;*/
   color:#940731;
   font-size:115%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .responsive{
@@ -63,4 +65,27 @@ a:link {
   font-size: large;
   border: none;
   cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ol {
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  font-family: 'Montserrat', sans-serif;
 }
