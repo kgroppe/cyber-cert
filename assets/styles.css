@@ -57,3 +57,10 @@ a:link {
   width: auto;
   height: 100%;
 }
+
+.dropdown{
+  background-color: #940731;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+}
